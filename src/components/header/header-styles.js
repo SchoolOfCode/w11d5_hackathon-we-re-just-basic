@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
 export const Header = styled.h1`
-  text-align: center;
+  align-self: center;
+  margin: auto;
+  color: #001d3d;
+  font-size: 50px;
 `;

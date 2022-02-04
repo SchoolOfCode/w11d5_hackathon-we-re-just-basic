@@ -7,5 +7,6 @@ export const LandingContext = styled.div`
   align-items: center; // centers perpendicular to the flex direction
   height: 100vh; // 100% view height
   width: 100vw; // 100% view width
-  position: absolute;
+  position: relative;
+  text-align: center;
 `;

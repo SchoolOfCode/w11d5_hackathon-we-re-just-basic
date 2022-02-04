@@ -5,8 +5,8 @@ import AuthButtonComponent from "../auth-button/auth-button-component";
 function NavBarComponent({ onLogIn, onLogOut, authenticated }) {
   return (
     <NavBar>
-      <div></div>
       <HeaderComponent />
+      <div></div>
       {authenticated && (
         <AuthButtonComponent text="Log Out" onClick={onLogOut} />
       )}

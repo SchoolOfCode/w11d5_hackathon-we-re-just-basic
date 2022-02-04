@@ -4,9 +4,9 @@ import BlogButtonComponent from "../blog-button/blog-button-component";
 function ButtonBarComponent() {
   return (
     <ButtonBar>
-      <BlogButtonComponent />
-      <BlogButtonComponent />
-      <BlogButtonComponent />
+      <BlogButtonComponent text="Blog 1" />
+      <BlogButtonComponent text="Blog 2" />
+      <BlogButtonComponent text="Blog 3" />
     </ButtonBar>
   );
 }
