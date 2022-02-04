@@ -1,7 +1,7 @@
 import { AuthButton } from "./auth-button-styles";
 
-function AuthButtonComponent() {
-  return <AuthButton></AuthButton>;
+function AuthButtonComponent({ text, onClick }) {
+  return <AuthButton onClick={onClick}>{text}</AuthButton>;
 }
 
 export default AuthButtonComponent;
