@@ -18,14 +18,14 @@ function AppComponent() {
       {!isAuthenticated && (
         <LandingContextComponent onLogIn={() => loginWithRedirect()} />
       )}
-      {isAuthenticated && (
+      {/* {isAuthenticated && (
         <MainComponent>
           <ButtonBarComponent />
           <PostComponent
             onLogOut={() => logout({ returnTo: window.location.origin })}
           />
         </MainComponent>
-      )}
+      )} */}
     </App>
   );
 }
