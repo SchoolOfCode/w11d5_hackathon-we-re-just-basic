@@ -1,7 +1,7 @@
 import { Date } from "./date-styles";
 
-function DateComponent() {
-  return <Date></Date>;
+function DateComponent({ date }) {
+  return <Date>{date}</Date>;
 }
 
 export default DateComponent;

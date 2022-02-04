@@ -1,7 +1,7 @@
 import { BlogName } from "./blog-name-styles";
 
-function BlogNameComponent() {
-  return <BlogName></BlogName>;
+function BlogNameComponent({ author }) {
+  return <BlogName>{author}</BlogName>;
 }
 
 export default BlogNameComponent;

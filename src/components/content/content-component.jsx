@@ -1,7 +1,7 @@
 import { Content } from "./content-styles";
 
-function ContentComponent() {
-  return <Content></Content>;
+function ContentComponent({ text }) {
+  return <Content>{text}</Content>;
 }
 
 export default ContentComponent;

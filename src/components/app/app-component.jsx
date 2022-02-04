@@ -18,7 +18,9 @@ function AppComponent() {
         <LandingContextComponent onLogIn={() => loginWithRedirect()} />
       )}
       {isAuthenticated && (
-        <Post onLogOut={() => logout({ returnTo: window.location.origin })} />
+        <PostComponent
+          onLogOut={() => logout({ returnTo: window.location.origin })}
+        />
       )}
     </App>
   );
