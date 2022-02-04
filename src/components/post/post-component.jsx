@@ -1,5 +1,5 @@
 import { Post } from "./post-styles";
-import posts from '../lib/data'
+import posts from '../../lib/data'
 import BlogNameComponent from '../blog-name/blog-name-component'
 import BlogTitleComponent from '../blog-title/blog-title-component'
 import DateComponent from '../date/date-component'
